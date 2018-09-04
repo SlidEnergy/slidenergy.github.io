@@ -264,7 +264,7 @@ var ContactsComponent = (function () {
 /***/ "../../../../../src/app/about-author/about-me-formal/presonal-qual/presonal-qual.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<section>\r\n  <h3>Личные качества</h3>\r\n\r\n  <ul>\r\n    <li>\r\n      <u>Способность зарабатывать деньги и управлять ими</u> ‑ опыт успешных и не очень инвестиций, опыт ведения предпринимательской\r\n      деятельности.\r\n    </li>\r\n    <li>\r\n      <u>Полная самоотдача работе</u> ‑ есть опыт работы за идею и за знания, когда увлекаюсь работаю без перерывов и выходных.</li>\r\n    <li>\r\n      <u>Целеустремленность</u> ‑ добился отличного результата, когда в успех никто не поверил.</li>\r\n    <li>\r\n      <u>Легко и быстро обучаюсь, люблю осваивать новые технологии</u> ‑ будучи .NET разработчиком, написал сайт и мобильное\r\n      приложения используя angular, nodejs, cordova.</li>\r\n    <li>\r\n      <u>Не боюсь трудностей</u> ‑ сам выполнил дизайнерский ремонт своей квартиры, из другой квартиры сделал мини гостиницу,\r\n      дополнительно занимался другой предпринимательской деятельностью.</li>\r\n    <li>\r\n      <u>Продуктивность</u> ‑ знаю что такое GTD, Agile, умею расставлять приоритеты.</li>\r\n  </ul>\r\n  <p>Полная самоотдача работе, легко и быстро обучаюсь, люблю осваивать новые технологии, способен работать в команде.</p>\r\n</section>"
+module.exports = "<section>\r\n  <h3>Личные качества</h3>\r\n\r\n  <ul>\r\n    <li>\r\n      <u>Умею зарабатывать и управлять деньгами</u> ‑ есть опыт накоплений, инвестирования, ведения бюджета, ведения предпринимательской\r\n      деятельности, организации и управления доходным объектом недвижимости.\r\n    </li>\r\n    <li>\r\n      <u>Полная самоотдача работе</u> ‑ есть опыт работы за идею и за знания, когда увлекаюсь, работаю без перерывов и выходных.\r\n    </li>\r\n    <li>\r\n      <u>Целеустремленность</u> ‑ есть опыт отличного результата, когда в успех никто не поверил.\r\n    </li>\r\n    <li>\r\n      <u>Легко и быстро обучаюсь, люблю осваивать новые технологии</u> ‑ будучи .NET desktop разработчиком, написал сайт\r\n      и мобильное приложения используя angular, nodejs, cordova.\r\n    </li>\r\n    <li>\r\n      <u>Не боюсь трудностей, берусь за сложную работу в разных сферах</u> ‑ есть опыт дизайнерского ремонта, организации\r\n      мини общежития, посуточной аренды, репетиторства, фриланса.\r\n    </li>\r\n    <li>\r\n      <u>Продуктивность</u> ‑ знаю что такое GTD, Agile, умею расставлять приоритеты.\r\n    </li>\r\n  </ul>\r\n</section>"
 
 /***/ }),
 
@@ -325,7 +325,7 @@ var PresonalQualComponent = (function () {
 /***/ "../../../../../src/app/about-author/about-me-formal/prof-skills/prof-skills.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<section>\r\n    <h3>Профессиональные навыки</h3>\r\n    <table class=\"skills\">\r\n        <thead>\r\n            <tr>\r\n                <th></th>\r\n                <th>Beginner</th>\r\n                <th>Intermediate</th>\r\n                <th>Expert</th>\r\n            </tr>\r\n        </thead>\r\n        <tbody>\r\n            <tr *ngFor=\"let item of items\">\r\n                <td>{{item.name}}</td>\r\n                <td>{{item.beginner}}</td>\r\n                <td>{{item.intermediate}}</td>\r\n                <td>{{item.expert}}</td>\r\n            </tr>\r\n        </tbody>\r\n    </table>\r\n    <p>Знаю\r\n        <b>английский язык</b> на уровне чтения и переписки. Пользуюсь системами управления задачами\r\n        <b>JIRA</b> и\r\n        <b>Mantis</b>, системами управления версий\r\n        <b>GIT</b> и\r\n        <b>SVN</b>. Работаю в среде\r\n        <b>MS Visual Studio и VS Code</b> с базой данных\r\n        <b>MS SQL Server</b>.\r\n    </p>\r\n</section>"
+module.exports = "<section>\r\n    <h3>Профессиональные навыки</h3>\r\n    <table class=\"skills\">\r\n        <thead>\r\n            <tr>\r\n                <th></th>\r\n                <th>Beginner</th>\r\n                <th>Intermediate</th>\r\n                <th>Expert</th>\r\n            </tr>\r\n        </thead>\r\n        <tbody>\r\n            <tr *ngFor=\"let item of items\">\r\n                <td>{{item.name}}</td>\r\n                <td>{{item.beginner}}</td>\r\n                <td>{{item.intermediate}}</td>\r\n                <td>{{item.expert}}</td>\r\n            </tr>\r\n        </tbody>\r\n    </table>\r\n    <p>Знаю\r\n        <b>английский язык</b> на уровне чтения и переписки. Пользуюсь системами управления задачами\r\n        <b>JIRA</b> и\r\n        <b>Mantis</b>, системами управления версий\r\n        <b>GIT</b> и\r\n        <b>SVN</b>. Работаю в среде\r\n        <b>MS Visual Studio и VS Code</b> с базой данных\r\n        <b>MS SQL Server</b>.\r\n    </p>\r\n    <p>Есть опыт работы в <b>команде</b>, <b>технической поддержки</b> и <b>коммерческой разработке ПО</b>, написания качественного\r\n        и чистого кода с целью дальнейшего сопровождения.</p>\r\n</section>"
 
 /***/ }),
 
@@ -366,7 +366,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var ProfSkillsComponent = (function () {
     function ProfSkillsComponent() {
         this.progLang = {
-            name: 'Языки программирования/разметки и скриптовые языки',
+            name: 'Языки и разметка',
             beginner: 'PowerShell',
             intermediate: 'JavaScript, TypeScript, T-SQL, HTML, CSS',
             expert: 'C#'
@@ -416,7 +416,7 @@ var ProfSkillsComponent = (function () {
 /***/ "../../../../../src/app/about-author/about-me-formal/work-exp/work-exp.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<section>\r\n  <h3>Опыт работы</h3>\r\n  <ul>\r\n    <li>\r\n      Дополнительно: ИП с 2012 года, репетиторство, наставничество и работа на иностранные компании.\r\n    </li>\r\n    <li>\r\n      ООО \"ЛЭРС УЧЕТ\" (2011 – по настоящее время) -\r\n      <b>Программист</b> (Отдел IT)\r\n      <br>\r\n      <u>Основные обязанности:</u>\r\n      <ul>\r\n        <li>разработка многозвенной системы диспетчеризации и учета потребления энергоресурсов, включая разработку серверной\r\n          части, базы данных, клиентского приложения, слоя сетевого взаимодействия, своего фреймворка для интеграции с другими\r\n          системами, веб‑интерфейс, webapi.</li>\r\n        <li>разработка системы управления лицензиями, дилерами и активацией ПО;</li>\r\n        <li>разработка внешних модулей, утилит, скриптов.</li>\r\n      </ul>\r\n      <u>Использование: </u>\r\n      <ul>\r\n        <li>общее: C#, .NET 4, sockets, pipes, async programming, NUnit, SVN/GIT, Jira, Mantis, PowerShell; </li>\r\n        <li>сервер: Windows Services, ado.net, t-sql, Entity Framework;</li>\r\n        <li>клиент: WinForms, DevExpress;</li>\r\n        <li>веб‑интерфейс: asp.net, JavaScript, AngularJS, html5, css3, WebApi.</li>\r\n      </ul>\r\n      <u>Получен опыт:</u> работы в команде, технической поддержки и коммерческой разработке ПО, написания качественного\r\n      и чистого кода с целью дальнейшего сопровождения, работы с системами управления версиями и системами отслеживания ошибок\r\n      и задач, тестирование кода.\r\n      <br>\r\n      <a routerLink=\"projects\"\r\n         fragment=\"lers\">Смотреть проекты и достижения</a>\r\n    </li>\r\n    <li>\r\n      МБУ Межотраслевой информационно-аналитический центр (2009 – 2011) -\r\n      <b>Программист</b> (Отдел ПО)\r\n      <br>\r\n      <u>Основные обязанности:</u>\r\n      <ul>\r\n        <li>сопровождение и доработка муниципальной медицинской информационной системы;</li>\r\n        <li>написание SQL запросов и работа с базами данных в среде MS SQL Server;</li>\r\n        <li>разработка прикладных программ на C#.</li>\r\n      </ul>\r\n      <u>Использование:</u> T-SQL, .NET 3.5, WinForms, ADO.NET, Entity Framework, DevExpress.\r\n      <br>\r\n      <a routerLink=\"projects\"\r\n         fragment=\"miac\">Смотреть проекты и достижения</a>\r\n    </li>\r\n  </ul>\r\n</section>"
+module.exports = "<section>\r\n  <h3>Опыт работы ({{experience}} лет)</h3>\r\n  <ul>\r\n    <li>\r\n      ООО \"ЛЭРС УЧЕТ\" (2011 – по настоящее время) -\r\n      <b>Программист</b> (Отдел IT)\r\n      <br>\r\n      <u>Основные обязанности:</u>\r\n      <ul>\r\n        <li>разработка многозвенной системы диспетчеризации и учета потребления энергоресурсов, включая разработку серверной\r\n          части, базы данных, клиентского приложения, слоя сетевого взаимодействия, своего фреймворка для интеграции с другими\r\n          системами, веб‑интерфейс, webapi.</li>\r\n        <li>разработка системы управления лицензиями, дилерами и активацией ПО;</li>\r\n        <li>разработка системы телеметрии, внешних модулей, утилит, скриптов.</li>\r\n      </ul>\r\n      <u>Использование: </u>\r\n      <ul>\r\n        <li>общее: C#, .NET 4.6, sockets, pipes, async programming, NUnit, SVN/GIT, Jira/Mantis, PowerShell; </li>\r\n        <li>сервер: Windows Services, ado.net, t-sql, Entity Framework;</li>\r\n        <li>клиент: WinForms, DevExpress;</li>\r\n        <li>веб‑интерфейс: asp.net, JavaScript, TypeScript, AngularJS, Angular, html5, css3, WebApi.</li>\r\n      </ul>\r\n      <a routerLink=\"projects\"\r\n         fragment=\"lers\">Смотреть проекты и достижения</a>\r\n    </li>\r\n    <li>\r\n      МБУ Межотраслевой информационно-аналитический центр (2009 – 2011) -\r\n      <b>Программист</b> (Отдел ПО)\r\n      <br>\r\n      <u>Основные обязанности:</u>\r\n      <ul>\r\n        <li>сопровождение и доработка муниципальной медицинской информационной системы;</li>\r\n        <li>написание SQL запросов и работа с базами данных в среде MS SQL Server;</li>\r\n        <li>разработка прикладных программ на C#.</li>\r\n      </ul>\r\n      <u>Использование:</u> T-SQL, .NET 3.5, WinForms, ADO.NET, Entity Framework, DevExpress.\r\n      <br>\r\n      <a routerLink=\"projects\"\r\n         fragment=\"miac\">Смотреть проекты и достижения</a>\r\n    </li>\r\n  </ul>\r\n</section>"
 
 /***/ }),
 
@@ -459,6 +459,15 @@ var WorkExpComponent = (function () {
     }
     WorkExpComponent.prototype.ngOnInit = function () {
     };
+    Object.defineProperty(WorkExpComponent.prototype, "experience", {
+        get: function () {
+            var ageDifMs = Date.now() - new Date(2009, 11, 30).getTime();
+            var ageDate = new Date(ageDifMs); // miliseconds from epoch
+            return Math.abs(ageDate.getUTCFullYear() - 1970);
+        },
+        enumerable: true,
+        configurable: true
+    });
     WorkExpComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-work-exp',
@@ -477,7 +486,7 @@ var WorkExpComponent = (function () {
 /***/ "../../../../../src/app/about-author/about-me/about-me.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"about-me\">\r\n  <div class=\"wrapper\">\r\n    <h1>Об авторе</h1>\r\n    <img src=\"assets/author/photo.jpg\"\r\n         width=\"300\"\r\n         height=\"250\"\r\n         alt=\"Михаил Ключко\"\r\n         title=\"Михаил Ключко\"\r\n         class=\"left frame\"\r\n         itemprop=\"image\">\r\n    <p>Меня зовут <span itemprop=\"name\">Михаил Ключко</span>, мне {{age}} лет, живу в Хабаровске.</p>\r\n    <p>Я квалифицированный разработчик программного обеспечения с опытом работы более 8 лет в разработке приложений, веб‑сайтов\r\n      и интерфейсов. Обладаю обширными техническими знаниями и вниманием к деталям для написания программ свободных от ошибок.\r\n      Я перфекционист по природе и методично все тестирую.</p>\r\n    <p>Я специализируюсь на <b>.NET Framework</b>, в основном на разработке настольных приложений и многозвенных систем.\r\n      У меня имеется профильное образование и опыт в <b>веб‑разработке</b>. </p>\r\n    <p>Мне нравится работать над проектами в команде, которая заботится о высоком качестве приложений и удобстве пользовательских\r\n      интерфейсов. Для меня важно построение длительных взаимоотношений с клиентами, поэтому в первую очередь я ищу долгосрочные\r\n      проекты.</p>\r\n    <p>Другую интересную информацию обо мне можно получить из социальных сервисов: <a href=\"//facebook.com/slidenergy\"\r\n         target=\"_blank\"\r\n         rel=\"nofollow\">Facebook</a>, <a href=\"//linkedin.com/in/slidenergy\"\r\n         target=\"_blank\"\r\n         rel=\"nofollow\">LinkedIn</a> и <a href=\"//vk.com/slidenergy\"\r\n         target=\"_blank\"\r\n         rel=\"me nofollow\">Вконтакте</a>.</p>\r\n  </div>\r\n</div>"
+module.exports = "<div class=\"about-me\">\r\n  <div class=\"wrapper\">\r\n    <h1>Об авторе</h1>\r\n    <img src=\"assets/author/photo.jpg\"\r\n         width=\"300\"\r\n         height=\"250\"\r\n         alt=\"Михаил Ключко\"\r\n         title=\"Михаил Ключко\"\r\n         class=\"left frame\"\r\n         itemprop=\"image\">\r\n    <p>Меня зовут <span itemprop=\"name\">Михаил Ключко</span>, мне {{age}}, живу в Хабаровске.</p>\r\n    <p>\r\n      Я квалифицированный разработчик программного обеспечения с опытом работы более {{experience}} лет в разработке приложений,\r\n      веб‑сайтов и интерфейсов. Обладаю обширными техническими знаниями и вниманием к деталям для написания программ свободных\r\n      от ошибок. Я перфекционист по природе и методично все тестирую.</p>\r\n    <p>\r\n      Я специализируюсь на <b>.NET Framework</b>, в основном на разработке настольных приложений и многозвенных систем. У\r\n      меня имеется профильное образование и опыт в <b>веб‑разработке</b>. </p>\r\n    <p>\r\n      Мне нравится работать над проектами в команде, которая заботится о высоком качестве приложений и удобстве пользовательских\r\n      интерфейсов. Для меня важно построение длительных взаимоотношений с клиентами, поэтому в первую очередь я ищу долгосрочные\r\n      проекты.\r\n    </p>\r\n    <p>Другую интересную информацию обо мне можно получить из социальных сервисов:\r\n      <a href=\"//github.com/slidenergy\"\r\n         target=\"_blank\"\r\n         rel=\"nofollow\">GitHub</a>\r\n      <a href=\"//facebook.com/slidenergy\"\r\n         target=\"_blank\"\r\n         rel=\"nofollow\">Facebook</a>,\r\n      <a href=\"//linkedin.com/in/slidenergy\"\r\n         target=\"_blank\"\r\n         rel=\"nofollow\">LinkedIn</a> и\r\n      <a href=\"//vk.com/slidenergy\"\r\n         target=\"_blank\"\r\n         rel=\"me nofollow\">Вконтакте</a>.\r\n    </p>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
@@ -529,6 +538,15 @@ var AboutMeComponent = (function () {
         enumerable: true,
         configurable: true
     });
+    Object.defineProperty(AboutMeComponent.prototype, "experience", {
+        get: function () {
+            var ageDifMs = Date.now() - new Date(2009, 11, 30).getTime();
+            var ageDate = new Date(ageDifMs); // miliseconds from epoch
+            return Math.abs(ageDate.getUTCFullYear() - 1970);
+        },
+        enumerable: true,
+        configurable: true
+    });
     AboutMeComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-about-me',
@@ -547,7 +565,7 @@ var AboutMeComponent = (function () {
 /***/ "../../../../../src/app/about-author/feedback/feedback.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"feedback\">\n  <div class=\"wrapper\">\n    <section>\n      <h1>Напишите мне</h1>\n      <p>Если у вас есть интересный проект связанный с блокчейном, веб-разработкой или вы просто хотите пообщаться на общие\n        темы, пишите.\n      </p>\n    </section>\n    <form id=\"contact-form\">\n      <label>Имя</label>\n      <input type=\"text\"\n             name=\"from_name\"\n             placeholder=\"Ваше имя\">\n      <label>Email</label>\n      <input type=\"email\"\n             name=\"from_email\"\n             placeholder=\"Email для ответа\">\n      <label>Сообщения</label>\n      <textarea name=\"message_html\"\n                placeholder=\"Ваше сообщение\"></textarea>\n      <button (click)=\"send_click($event)\">Отправить</button>\n      <div class=\"message\">{{message}}</div>\n    </form>\n    <section>&nbsp;</section>\n  </div>\n</div>"
+module.exports = "<div class=\"feedback\">\r\n  <div class=\"wrapper\">\r\n    <section>\r\n      <h1>Напишите мне</h1>\r\n      <p>Если у вас есть интересный проект или вы просто хотите пообщаться на общие темы, пишите.\r\n      </p>\r\n    </section>\r\n    <form id=\"contact-form\">\r\n      <label>Имя</label>\r\n      <input type=\"text\"\r\n             name=\"from_name\"\r\n             placeholder=\"Ваше имя\">\r\n      <label>Email</label>\r\n      <input type=\"email\"\r\n             name=\"from_email\"\r\n             placeholder=\"Email для ответа\">\r\n      <label>Сообщения</label>\r\n      <textarea name=\"message_html\"\r\n                placeholder=\"Ваше сообщение\"></textarea>\r\n      <button (click)=\"send_click($event)\">Отправить</button>\r\n      <div class=\"message\">{{message}}</div>\r\n    </form>\r\n    <section>&nbsp;</section>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
@@ -824,7 +842,7 @@ var FooterComponent = (function () {
 /***/ "../../../../../src/app/header/header.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<header>\r\n    <div class=\"wrapper\">\r\n        <div class=\"logo\">\r\n            <a routerLink=\"/\">SlidEnergy</a>\r\n            <div>Senior Desktop & Web разработчик</div>\r\n        </div>\r\n        <ul class=\"menu\"\r\n            role=\"navigation\">\r\n            <li>\r\n                <a routerLink=\"/\"\r\n                   routerLinkActive=\"active\"\r\n                   [routerLinkActiveOptions]=\"{exact:true}\">Обо мне</a>\r\n            </li>\r\n            <li>\r\n                <a routerLink=\"/projects\"\r\n                   routerLinkActive=\"active\">Проекты</a>\r\n            </li>\r\n        </ul>\r\n    </div>\r\n</header>"
+module.exports = "<header>\r\n    <div class=\"wrapper\">\r\n        <div class=\"logo\">\r\n            <a routerLink=\"/\">SlidEnergy</a>\r\n            <div>Senior Desktop & Web Full-stack разработчик</div>\r\n        </div>\r\n        <ul class=\"menu\"\r\n            role=\"navigation\">\r\n            <li>\r\n                <a routerLink=\"/\"\r\n                   routerLinkActive=\"active\"\r\n                   [routerLinkActiveOptions]=\"{exact:true}\">Обо мне</a>\r\n            </li>\r\n            <li>\r\n                <a routerLink=\"/projects\"\r\n                   routerLinkActive=\"active\">Проекты</a>\r\n            </li>\r\n        </ul>\r\n    </div>\r\n</header>"
 
 /***/ }),
 

@@ -1,0 +1,28 @@
+<header>
+    <div class="wrapper">
+        <div class="logo">
+            <a routerLink="/">{{'core.fullname' | translate}}</a>
+            <div>{{'core.subtitle' | translate }}</div>
+        </div>
+        <div>
+            <ul class="menu"
+                role="navigation">
+                <li>
+                    <a routerLink="/"
+                       routerLinkActive="active"
+                       [routerLinkActiveOptions]="{exact:true}"
+                       rel="nofollow">{{ 'core.aboutMe' | translate }}</a>
+                </li>
+                <li>
+                    <a routerLink="/projects"
+                       routerLinkActive="active"
+                       rel="nofollow">{{ 'core.projects' | translate }}</a>
+                </li>
+            </ul>
+            <div class="languages">[ <a [ngClass]="{ 'active': currentLang == 'en'}"
+                   (click)="language_click('en')">en</a> | <a [ngClass]="{ 'active': currentLang == 'ru'}"
+                   (click)="language_click('ru')">ru</a>
+                ]</div>
+        </div>
+    </div>
+</header>

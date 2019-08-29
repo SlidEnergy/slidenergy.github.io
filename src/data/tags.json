@@ -1,0 +1,27 @@
+{
+    "byWork": [
+        "lers",
+        "miac",
+        "hobby"
+    ],
+    "byProjectType": [
+        "server",
+        "desktop",
+        "web",
+        "t-sql",
+        "api",
+        "utils",
+        "windows-services",
+        "gamedev"
+    ],
+    "byLanguage": [
+        "c#",
+        "javascript"
+    ],
+    "other": [
+        "aspnet",
+        "angular",
+        "devexpress",
+        "teamwork"
+    ]
+}

@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - "10"
+dist: trusty
+sudo: required
+branches:
+  only:
+  - master
+script:
+  - npm run prod
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  repo: slidenergy/slidenergy.github.io
+  target_branch: master
+  on:
+    branch: master
